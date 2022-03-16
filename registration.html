@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</Form></title>
+</head>
+<body>
+  
+  <table>
+
+    <h1 style="background-color: green;">Mind Healer</h1>
+    <tr>
+    <td><h1 style="color:yellow"> <a href="home.html">HOME</a></td>
+    <td><h1 style="color:yellow"> <a href="background.html">ABOUT US  
+    <td><h1 style="color:yellow"><a href="signup.html">       SIGN UP </a></h1></td>
+    <td><h1 style="color:yellow"><a href="signupcommunity.html">COMMUNITY</a></h1></td>
+    <td><h1 style="color: yellow;"><a href="faq.html">FAQ</a></h1></td>
+    <td><h1 style="color:yellow"> <a href="registration.html">BOOK APPOINTMENT</a></h1></td>
+    
+    
+    <style type="text/css">
+      td {
+        padding: 0 15px;
+      }
+    </style>
+    
+    </tr>
+    </table>
+<hr>
+    <h2>Book Appointment </h2>
+    <h3>Registration Form</h3>
+
+    <form action="payment.html">
+      <big>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="username" required>
+        <br>
+        <br>
+        <label for="dateofbirth">Date of Birth</label>
+        <input type="date" name="dataofbirth" id="dataofbirth" placeholder="dateofbirth" required>
+        <br>
+        <br>
+        <label for="age">Age</label>
+        <input type="number" id="age" placeholder="age" required>
+        <br>
+        <br>
+        <label for="password">Set Password</label>
+        <input type="password" id="password"placeholder="password" required>
+        <br>
+        <br>
+        <label for="password">Rewrite Password</label>
+        <input type="password" id="password" placeholder="password" required>
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="email" required>
+        <br><br>
+        <label for="number">Phone Number</label>
+        <input type="number" id="Number" placeholder="phone Number" required>
+        <br><br>
+        <p>
+          ***Note:Before selecting session mode please go through our faq page if you are not sure what to choose
+          <a href="faq.html">click here</a>
+          ***
+        </p><br>
+        <label for="select session mode">Select session mode</label>
+        <select name="select session mode" id="select session mode">
+            <option value="Counselling">Counselling</option>
+            <option value="psychotherapy">psychotherapy</option>
+        </select> <br><br>
+          <p style="color:red">***Note:if you are choosing counselling as your session mode then select only counselling doctors  and not from pschotherapy and same goes for pschotherapy.***
+            <br>
+          </p>
+          <label for="Counselling doctor">Select counselling Doctor</label>
+          <select name="doctor" id="doctor">
+          <option value="Dr Ram Mohan">Dr Ram Mohan</option>
+          <option value="Dr Rajiv Mishra ">Dr Rajiv Mishra</option>
+          <option value="Dr Nia Sharma ">Dr Nia Sharma</option>
+          </select> <br><br>
+          <label for="Psychotherapy doctor">Select psychotherapy Doctor</label>
+          <select name="Psychotherapy doctor" id="Psychotherapy doctor">
+          <option value="Dr Rudraksh Khurana">Dr Rudraksh Khurana</option>
+          <option value="Dr Aarzu Mehta ">Dr Aarzu Mehta</option>
+          </select><br><br>
+      <label for="Describe your problem">Describe your problem</label><br>
+      <textarea name="" id="" cols="100" rows="4" placeholder="Type Here"></textarea><br>
+        <label for="mode">Select mode</label>
+        <select name="mode" id="mode">
+            <option value="Online">Online</option>
+            <option value="Offine">Offine</option>
+        </select> <br><br>
+        <label for="date">Appointment Date</label>
+        <input type="date" name="date" id="date" placeholder="Appointment Date" required>
+        <br>
+        <br>
+        <label for="time">Select Time slot</label>
+          <select name="time" id="time">
+          <option value="10AM">10AM</option>
+          <option value="2PM">2PM</option>
+          <option value="6PM">6PM</option>
+          </select><br><br>
+        <label for="number">ESI Number</label>
+        <input type="number" name="number" id="number"placeholder="ESI Number">
+        <br><br>
+        Upload Your Medical File: <input type="file" name="file" id="file"> <br><br>
+        <input type="submit" value="submit">
+        </big>
+    </form>
+    <a href="home.html">go back to home page</a>
+    <style>
+        body {
+          background-image: url('ab1.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;
+        }
+        </style>
+      
+</body>
+</html>
